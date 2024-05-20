@@ -1,0 +1,62 @@
+
+body {
+    background-color: #f0eae3;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center; 
+}
+
+
+h1 {
+    color: #5d3a3a;
+    background-color: #d1c4b1;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
+h3 {
+    color: #a73d3d;
+}
+
+
+p {
+    color: #5d3a3a;
+}
+
+
+img {
+    height: auto;
+    width: 90%; /* Hacemos que las imágenes sean responsivas */
+    max-width: 500px; /* Establecemos un ancho máximo */
+    border: 5px solid #d1c4b1;
+    margin-top: 20px;
+}
+
+
+.producto {
+    display: inline-block; /* Alineamos los productos horizontalmente */
+    margin: 10px;
+    border: none; /* Eliminamos el borde predeterminado */
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #5d3a3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #8c6060;
+}
+
+
+ol {
+    color: #5d3a3a;
+}
