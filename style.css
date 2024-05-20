@@ -1,0 +1,57 @@
+nav, header {
+    color: rgb(89, 155, 230);
+}
+
+#navbarNav a{
+    color:rgb(252, 249, 249);
+}
+
+.icono {
+    font-size: 3rem; 
+    color: rgb(247, 240, 240);
+    background-color: rgb(110, 153, 234);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.icono-contacto {
+    font-size: 2rem; 
+    color: rgb(100, 165, 234);
+    background-color: rgb(249, 248, 248);
+    /*        arriba derecha abajo izq 
+    padding: 0.5rem 1rem 0.5rem 1rem; */
+    padding: 0.8rem 1rem;
+    margin: 1rem;
+    border-radius: 75%;
+}
+
+#icono-footer{
+    font-size: 5rem; 
+    color: rgb(241, 235, 235);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.subtitulo-habilidades {
+    margin-top: 16px;
+}
+
+header {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 100vh;
+
+    background-image: url('assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Keep the image in place while scrolling */
+    filter: brightness(0.8); /* Adjust the brightness */
+}
+  
+
+#iconos a {
+    padding-top: 16px;
+}
